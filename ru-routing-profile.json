@@ -1,0 +1,34 @@
+{
+  "Name": "ru-routing-profile-for-happ",
+  "GlobalProxy": "true",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "https://dns.adguard-dns.com/dns-query",
+  "RemoteDNSIP": "94.140.14.14",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "https://dns.adguard-dns.com/dns-query",
+  "DomesticDNSIP": "94.140.15.15",
+  "Geoipurl": "https://github.com/scaredtobelovely/ru-routing-profile-for-happ/releases/download/ru-routing-files/geoip.dat",
+  "Geositeurl": "https://github.com/scaredtobelovely/ru-routing-profile-for-happ/releases/download/ru-routing-files/geosite.dat",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:apple",
+  ],
+  "DirectIp": [
+    "geoip:ru",
+    "geoip:private"
+    "geoip:kz"
+  ],
+  "ProxySites": [
+    "geosite:youtube",
+    "geosite:twitch",
+    "geosite:"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
